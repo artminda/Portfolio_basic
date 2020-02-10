@@ -1,6 +1,6 @@
 ## Online Demo
 [basic]
-[Preview](https://artminda.github.io/artminda)
+[Preview](https://artminda.github.io/Portfolio_basic)
 
 
 ## Project setup
