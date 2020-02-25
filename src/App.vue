@@ -51,7 +51,7 @@ export default {
   },
   data() {
     return { 
-      goDark: false, 
+      goDark: true, 
       lang: "en"  
     };
   },

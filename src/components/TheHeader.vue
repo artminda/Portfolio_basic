@@ -53,10 +53,10 @@
         <span class="green--text">Chen</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn @click="changeTheme" depressed small icon class="hidden-md-and-up">
+      <!-- <v-btn @click="changeTheme" depressed small icon class="hidden-md-and-up">
         <v-icon v-if="goDark==true">fas fa-sun</v-icon>
         <v-icon v-else>fas fa-moon</v-icon>
-      </v-btn>
+      </v-btn> -->
     <!-- pc -->
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn flat to="/" active-class="green--text headline">{{$t('art_home')}}</v-btn>
@@ -73,10 +73,10 @@
           dense
           single-line
         ></v-select>
-        <v-btn @click="changeTheme" depressed small icon>
+        <!-- <v-btn @click="changeTheme" depressed small icon>
           <v-icon v-if="goDark==true">fas fa-sun</v-icon>
           <v-icon v-else>fas fa-moon</v-icon>
-        </v-btn>
+        </v-btn> -->
       </v-toolbar-items>
     </v-toolbar>
   </div>

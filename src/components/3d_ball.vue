@@ -299,10 +299,22 @@ export default {
 <style scoped>
 #container {
   display: block;
-  width: 1000px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
-  padding: 0;
+    /* padding: 0; */
   overflow: hidden;
+}
+
+@media (min-width: 600px) {
+  #container {
+  max-width: 375px;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 1264px) {
+  #container {
+  max-width: 100vw;
+  }
 }
 </style>

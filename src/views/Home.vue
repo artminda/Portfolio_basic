@@ -12,10 +12,14 @@
       :sliderPositionPercentage="sliderPosition"
     /> -->
 
+      <ball
+       :style="{left: '0px', position: 'absolute', margin:'5vh 0'}"
+       />
+    
       <!-- <ball
-       :style="{ maxWidth: '1200px' }"
+      class="hidden-sm-and-up" 
+       :style="{ maxWidth: '375px',maxHeight: '375px'  }"
        /> -->
-
   
     <lottie
     class="hidden-md-and-down" 
@@ -25,7 +29,7 @@
     v-on:animCreated="handleAnimation"
     />
    
-    <VueCompareImage
+    <!-- <VueCompareImage
       class="hidden-lg-and-up"
       :style="{ maxWidth: '300px' }"
       :sliderLineWidth="sliderLine"
@@ -33,25 +37,7 @@
       :leftImage="leftImage2"
       :rightImage="rightImage2"
       :sliderPositionPercentage="sliderPosition"
-    />
-
-    <br>
-
-    <vue-typer class="headline" :repeat="0" text="artminda chen"></vue-typer>
-    <vue-typer
-      :text="text1"
-      :repeat="Infinity"
-      :shuffle="false"
-      initial-action="erasing"
-      :pre-type-delay="70"
-      :type-delay="70"
-      :pre-erase-delay="1980"
-      :erase-delay="150"
-      erase-style="select-back"
-      :erase-on-complete="false"
-      caret-animation="smooth"
-    ></vue-typer>
-    <br>
+    /> -->
     <v-flex xs12 sm6 md4 lg4 xl4>
       <v-card flat color="transparent" max-width="500">
         <v-card-title primary-title>
